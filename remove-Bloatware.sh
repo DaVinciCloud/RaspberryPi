@@ -4,7 +4,11 @@
 #
 # Created for Raspberry Pi
 #
-# Run this iscrip from you Raspberry Pi from command line by typing: 
+# Download this script into your Raspberry Pi from command line by typing:
+#
+#     wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/remove-Bloatware.sh
+#
+# Run this iscrip from you Raspberry Pi by typing the fallowing at command line: 
 #
 #     curl -s "https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/remove-Bloatware.sh" | bash
 #
