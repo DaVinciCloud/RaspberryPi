@@ -2,6 +2,9 @@
 #
 # UP-SYS SCRIPT: HELPS UPDATE AND UPGRADE, ALSO UPGRADE DISTRO AND KERNEL 
 #
+#
+#
+# wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/run-SystemUp.sh
 
 
 ###############################################################################
