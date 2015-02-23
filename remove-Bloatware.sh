@@ -7,7 +7,7 @@
 #
 # Run this iscrip from you Raspberry Pi from command line by typing: 
 #
-#     curl -s "https://raw.githubusercontent.com/ ? ? ?" | bash
+#     curl -s "https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/remove-Bloatware.sh" | bash
 #
 #
 
