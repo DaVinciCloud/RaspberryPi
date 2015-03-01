@@ -120,8 +120,6 @@ f_sonicPi(){
 f_scratch(){
   clear
   sudo apt-get remove --purge -y scratch
-  sudo apt-get remove --purge -y squak-vm # (IF INSTALLED)
-  sudo apt-get remove --purge -y squeak-plugins-scratch
   sudo apt-get autoremove -y && sudo apt-get clean
   clear
   echo " "
@@ -139,12 +137,9 @@ f_scratch(){
 ##########################################################################################
 f_python(){
   clear
-  sudo apt-get remove --purge -y python python2.7 python2.7-minimal python3
-  sudo apt-get remove --purge -y idle idle2 idle3
-  sudo apt-get remove --purge -y cpp-4.6
-  sudo apt-get remove --purge -y build-essential
+  sudo apt-get remove --purge -y python*
+  sudo apt-get remove --purge -y idle*
   sudo rm -rf ~/python_games
-  sudo rm -rf /opt/vc
   sudo apt-get autoremove -y && sudo apt-get clean
   clear
   echo " "
@@ -181,7 +176,7 @@ f_dillo(){
 f_games(){
   clear
   sudo apt-get remove --purge -y penguinspuzzle
-  sudo apt-get remove --purge -y minecraft-pi
+  sudo apt-get remove --purge -y minecraft*
   sudo rm -rf /opt/minecraft-pi;
   sudo apt-get autoremove -y && sudo apt-get clean
   clear
