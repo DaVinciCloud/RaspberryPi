@@ -4,7 +4,7 @@
 #
 #
 #
-# wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/run-SystemUp.sh
+# wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/run-Systemup.sh
 
 
 ###############################################################################
