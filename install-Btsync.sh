@@ -56,6 +56,7 @@ clear
 sudo apt-get install btsync
 sleep
 clear
+rm -r /etc/apt/sources.list.d/btsync.list
 sudo apt-get autoremove -y && sudo apt-get clean
 sleep
 clear
@@ -71,6 +72,7 @@ echo " " service btsync status
 sleep 3
 echo " "
 
+#
 # THIS SCRIP WAS CREATED THANKS TO THIS GUIDE:
 #
 #  https://melgrubb.wordpress.com/2014/08/03/raspberry-pi-home-server-part-14-bittorrent-sync/
