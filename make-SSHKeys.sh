@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # Set up script for new logins / passwords
+#
+# wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/make-SSHKeys.sh
+#
+
 
 
 ###############################################################################
