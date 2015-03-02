@@ -39,8 +39,8 @@ apt-get install -y openssl;
 apt-get install -y libio-pty-perl;
 apt-get install -y apt-show-versions;
 apt-get install -y python;
-sudo wget http://prdownloads.sourceforge.net/webadmin/webmin_1.730_all.deb
-sudo dpkg --install webmin_1.730_all.deb
+wget http://prdownloads.sourceforge.net/webadmin/webmin_1.730_all.deb
+dpkg --install webmin_1.730_all.deb
 
 clear
 echo " "
