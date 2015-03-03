@@ -21,7 +21,7 @@ echo "##########################################################################
 echo "  SSH KEY PAIR "
 echo "###############################################################################"
 echo " "
-echo " [1] SSH Keys - Generate / Copy"
+echo " [1] SSH Keys - Generate"
 echo " [0] Exit"
 echo " "
 echo "###############################################################################"
@@ -75,6 +75,8 @@ f_sshkeys(){
   esac
 }
 
+
+
 f_sshkeys_generate(){
     clear
     echo " "
@@ -92,23 +94,25 @@ f_sshkeys_generate(){
     echo "###############################################################################"
     echo " "
 	  echo " Creating authorized_keys file for passwordless login in ~/.ssh/authorized_keys"	
+	  echo "   example: /home/{USERNAME}/.ssh/authorized_keys "
 	  echo " "	
     echo "###############################################################################"
-	  sleep 3
+	  sleep 5
 	  ssh-keygen -t rsa
 	  clear	
 	  echo " "
 	  echo " Your id_rsa.pub key will be copied into authorized_keys"
 	  echo " "
-	  sleep 3	
+	  sleep 5	
 	  cat id_rsa.pub > authorized_keys
 	  clear
 	  echo " "
-	  echo " Creating Private PEM key file for passwordless login in ~/.ssh/"$HOSTNAME".pem"
-    echo " "
-	  sleep 3
-    scp ~/.ssh/id_rsa ~/.ssh/$HOSTNAME.pem
-    chmod 400 $HOSTNAME.pem
+	  echo " Creating Private PEM key file for passwordless login"
+	  echo "   in ~/.ssh/"$HOSTNAME".pem "
+	  echo " "
+	  sleep 5
+          scp ~/.ssh/id_rsa ~/.ssh/$HOSTNAME.pem
+          chmod 400 $HOSTNAME.pem
 	  clear
 	  echo " "
 	  echo "###############################################################################"
