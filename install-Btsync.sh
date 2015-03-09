@@ -5,6 +5,8 @@
 #    RUN ON @ 02.21.2015
 #
 #    wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/install-Btsync.sh
+#
+#    sudo dpkg-reconfigure btsync
 # # # # #
 
 #!/bin/bash
