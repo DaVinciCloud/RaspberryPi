@@ -2,7 +2,10 @@
 #
 #    WEBMIN INSTALLATION SCRIPT  
 #    FEBRUARY 2015
-#    RUN ON RASPBERRY PI @ 03.01.2015
+#    RUN ON:
+#      Raspberry Pi                  @ 03.01.2015
+#      Debian 7 3.2.0-4-686-pae i686 @ 03.10.2015
+#      Ubuntu 
 #
 # # # # #
 
