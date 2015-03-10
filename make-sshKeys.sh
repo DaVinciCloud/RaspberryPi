@@ -86,7 +86,8 @@ f_sshkeys_generate(){
     echo " Password is optional and NOT recommended for automatic login."
     echo " "
     echo "###############################################################################"
-	  sleep 3
+	  sleep 5
+	  mkdir ~/.ssh
 	  cd ~/.ssh/
 	  sudo rm *
 	  clear
