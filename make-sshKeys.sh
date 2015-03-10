@@ -105,7 +105,7 @@ f_sshkeys_generate(){
 	  echo " Your id_rsa.pub key will be copied into authorized_keys"
 	  echo " "
 	  sleep 5	
-	  cat id_rsa.pub > authorized_keys
+	  cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys
 	  clear
 	  echo " "
 	  echo " Creating Private PEM key file for passwordless login"
