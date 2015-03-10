@@ -7,6 +7,7 @@
 #      Debian 7 3.2.0-4-686-pae i686 @ 03.10.2015
 #      Ubuntu 
 #
+#   wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/install-Webmin.sh
 # # # # #
 
 #!/bin/bash
