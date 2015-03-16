@@ -55,7 +55,7 @@ clear
 sudo apt-get update
 sleep
 clear
-sudo apt-get install btsync
+sudo apt-get install -y btsync
 sleep
 clear
 rm -r /etc/apt/sources.list.d/btsync.list
