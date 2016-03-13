@@ -78,9 +78,7 @@ f_wolfran(){
   clear
   echo " "
   sudo apt-get remove --purge -y wolfram-engine
-  sleep 3
-  echo " "
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   sleep 3
   clear
   echo " "
@@ -99,9 +97,7 @@ f_sonicPi(){
   clear
   echo " "
   sudo apt-get remove --purge -y sonic-pi
-  sleep 3
-  echo " "
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   sleep 3
   clear
   echo " "
@@ -120,7 +116,7 @@ f_sonicPi(){
 f_scratch(){
   clear
   sudo apt-get remove --purge -y scratch
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   clear
   echo " "
   echo " Scratch was removed"
@@ -140,7 +136,7 @@ f_python(){
   sudo apt-get remove --purge -y python*
   sudo apt-get remove --purge -y idle*
   sudo rm -rf ~/python_games
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   clear
   echo " "
   echo " Python was removed"
@@ -158,7 +154,7 @@ f_python(){
 f_dillo(){
   clear
   sudo apt-get remove --purge -y dillo
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   clear
   echo " "
   echo " Dillo was removed"
@@ -178,7 +174,7 @@ f_games(){
   sudo apt-get remove --purge -y penguinspuzzle
   sudo apt-get remove --purge -y minecraft*
   sudo rm -rf /opt/minecraft-pi;
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   clear
   echo " "
   echo " Games were removed "
@@ -210,7 +206,7 @@ f_removeAll(){
   sudo apt-get remove --purge -y idle idle2 idle3
   sudo apt-get remove --purge -y cpp-4.6
   sudo apt-get remove --purge -y build-essential
-  sudo apt-get autoremove -y && sudo apt-get clean
+  sudo apt-get autoremove -y && sudo apt-get autoclean && sudo apt-get clean
   clear
   echo " "
   echo " All the Un-Necessary programs were removed"
