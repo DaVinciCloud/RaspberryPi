@@ -6,7 +6,7 @@
 #
 #    wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/install-Btsync.sh
 #    chmod 755 install-Btsync.sh
-#    ./install-Btsync.sh
+#    sudo bash ./install-Btsync.sh
 #    sudo dpkg-reconfigure btsync
 #
 # # # # #
@@ -38,7 +38,8 @@ deb-src http://debian.yeasoft.net/btsync wheezy main contrib non-free
 EOF
 gpg --keyserver pgp.mit.edu --recv-keys 6BF18B15
 gpg --armor --export 6BF18B15 | sudo apt-key add -
-
+# This is a backup key source from: http://goo.gl/Qz9eUs
+#sudo apt-key adv --keyserver keys.gnupg.net --recv-keys 6BF18B15
 
 
 ###############################################################################
@@ -54,7 +55,7 @@ echo " Press ENTER to RUN btsync install"
 echo " "
 read
 clear
-sudo apt-get update
+sudo apt-get update && sudo apt-get -y upgrade
 sleep
 clear
 sudo apt-get install -y btsync
@@ -65,7 +66,7 @@ sudo apt-get autoremove -y && sudo apt-get clean
 sleep
 clear
 echo " "
-echo " btsync  was installed successfully"
+echo " btsync was installed successfully"
 echo " "
 echo " Press ENTER to check STATUS"
 echo " "
