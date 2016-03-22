@@ -7,6 +7,7 @@
 # Download this Script into your Raspberry Pi from command line by typing:
 #
 #     wget https://raw.githubusercontent.com/DaVinciCloud/RaspberryPi/master/remove-Bloatware.sh
+#     wget https://goo.gl/txLNqJ
 #
 
 
